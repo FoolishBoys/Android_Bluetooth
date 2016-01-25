@@ -1,0 +1,19 @@
+//please improt the bluetooth.jar to your project;
+//all api
+1 Bluetoothinit(Activity context,Handler handler) the bluetoothinit.class will be init your
+Bluetooth device ,the parameter Activity is Current Activity，the handler will Update UI when your
+device received data
+
+2 public void initBluetooth()
+init you Bluetooth and Bluetoothfindable
+
+3 public void send(String a) Send a string to other devices
+
+4 public void setisAndroid(boolean is) set you DeviceTarget is android or not ,if you device
+is android device ,return ture,else return false
+
+5 public void connet() connet to anther device
+
+6 public void onstatrt() open your device buletooth
+
+7 public void Result(int requestCode, int resultCode, Intent data) your activity intent result
